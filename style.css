@@ -1,0 +1,186 @@
+@import url(https://fonts.googleapis.com/earlyaccess/mplus1p.css);
+
+
+
+html,
+body {
+    background-color: #11ddff;
+    margin: 0;
+    overflow: hidden;
+    color: #fff;
+}
+
+h1 {
+    margin: 10vh 0 5vh 0;
+}
+
+p {
+    margin: 3vh 0
+}
+
+#object {
+    visibility: hidden;
+}
+
+.hover-transparent:hover {
+    opacity: 0.1;
+}
+
+.form,
+.sns {
+    position: relative;
+
+}
+
+.sns {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 56vw;
+}
+
+.mailadress,
+.password,
+.login-button {
+    margin: 1vh auto;
+    display: block;
+    width: 55vw;
+    height: 40px;
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+.mailadress,
+.password {
+    color: #000;
+    background-color: #fff;
+}
+
+
+.login-button {
+    background-color: #000;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    visibility: : visible !important;
+}
+
+.login-button:hover {
+    background-color: #fff;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #000;
+
+}
+
+.twitter-button,
+.facebook-button {
+    margin: 0 2vw;
+    display: block;
+    width: 26vw;
+    height: 40px;
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    border: none;
+
+    border-radius: 50px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+.twitter-button {
+    color: #000;
+    background-color: #55acee;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    visibility: : visible !important;
+}
+
+.twitter-button:hover {
+    background-color: #fff;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #55acee;
+
+}
+
+.facebook-button {
+    color: #000;
+    background-color: #3B5998;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    visibility: : visible !important;
+}
+
+.facebook-button:hover {
+    background-color: #fff;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #3B5998;
+
+}
+
+
+footer {
+    text-align: center;
+}
+
+footer,
+h1,
+h4,
+p {
+    font-family: 'Mplus 1p';
+}
+
+ul.footer-list {
+    align-content: center;
+    align-items: center;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    margin: 10vh auto 5vh auto;
+
+
+}
+
+ul.footer-list li {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+    border-left: 1px solid #fff;
+}
+
+ul.footer-list li:first-child {
+    border: none;
+}
+
+ul.footer-list li a {
+    display: block;
+    text-decoration: none;
+
+}
+
+.twitter-button {
+    float: left;
+
+}
+
+.sns,
+.form {
+    overflow: hidden;
+}
+
+.footer-list li {
+    font-size: 10px;
+}
