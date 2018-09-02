@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>服を探そう。服を贈ろう。｜Knitt-post</title>
+    <link rel="shortcut icon" href="https://kintt-post.jp/img/favicon.ico">
+    <meta name="description" content="knitt-post">
+    <meta name="keywords" content="knitt-post">
+    <meta property="og:title" content="knitt-post"/>
+    <meta property="og:description"
+          content="服を探そう。服を贈ろう。"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://knitt-post.jp"/>
+    <meta property="og:image" content="https://knitt-post/img/ogp.png"/>
+    <meta property="image_src" content="https://knitt-post/img/ogp.png">
+    <meta property="og:locale" content="ja_JP"/>
+    <meta property="fb:app_id" content=""/>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:title" content="服を探そう。服を贈ろう。">
+    <meta name="twitter:description"
+          content="服を探そう。服を贈ろう。">
+    <meta name="twitter:image" content="https://knitt-post.jp/img/ogp.png">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet"/>
+
+    <!-- *** stylesheet *** -->
+    <link rel="stylesheet" type="text/css" href="resource/css/normalize.css" media="all">
+    <link rel="stylesheet" type="text/css" href="resource/css/default.css" media="all">
+    <link rel="stylesheet" type="text/css" href="resource/css/common.css" media="all">
+    <link rel="stylesheet" type="text/css" href="resource/css/style.css" media="all">
+
+    <!-- *** stylesheet 追加 *** -->    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+          integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    
+    <!-- *** javascript *** -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+
+    <!-- *** 追加javascript *** -->
+    <script type="text/javascript">
+        if ((navigator.userAgent.indexOf('iPhone') > 0) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+            document.write('<meta name="viewport" content="width=device-width,initial-scale=1">');
+        } else {
+            document.write('<meta name="viewport" content="width=1200">');
+        }
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+        
+</head>
+
+<body id="form" class="user02">
+ 
+ <header>
+  <div class="nav-inner">
+    <div id="nav-drawer">
+      
+      <input id="nav-input" type="checkbox" class="nav-unshown">
+        
+        <label id="nav-open" class="sp_hdr_button" for="nav-input">
+          <span class="sp_hdr_button_icon"></span>
+        </label>
+        
+        <div id="logo">
+          <a href="/"><img src="resource/img/sub_logo.svg"></a>
+        </div>
+        
+        <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+
+        <div id="nav-content">
+
+          <ul class="match">
+            <a href="shuppin_list.html">
+              <li>出品中の服がマッチしています。</li>
+            </a>
+            <a href="lookfor_list.html" class="m-b3">
+              <li>お探しの服がマッチしています。</li>
+            </a>
+          </ul>
+
+          <p class="name bold">aaaaaaさん</p>
+
+          <ul class="p-b2 nav-list">
+            <a href="info.html"><li><span class="nav-place">住所</span></li></a>
+            <a href="shuppin_list.html" class="m-b3"><li><span class="nav-present">出品中の衣服</span></li></a>
+            <a href="lookfor_list.html"><li><span class="nav-search">探している衣服</span></li></a>
+            <a href="logout"><li><span class="nav-logout">ログアウト</span></li></a>
+          </ul>
+        </div>
+    </div>
+  </div>
+</header>
+
+
+<h2 class="bold">贈る情報を入力してください</h2>
+
+<form method="post" action="" accept-charset="UTF-8" class="p-t3">
+        
+    <div class="form_inner">
+        
+        <div class="s m-b3"><span class="t-red">*</span>は必須項目です。</div>
+      
+        <label for="naiyou" class="contact_label m-b05">性別<span class="hissu">*</span></label>
+        <div class="flex m-b1">
+          <div class="btn_tap">
+            <input type="radio" name="sex" value="1" id="request" checked="">
+            <label for="request" class="btn">メンズ</label>
+          </div>
+          <div class="btn_tap">
+            <input type="radio" name="sex" value="0" id="no_request">
+            <label for="no_request" class="btn">レディース</label>
+          </div>
+        </div> 
+
+        <div class="">
+          <label for="naiyou" class="contact_label m-b05">年代<span class="hissu">*</span></label>          
+          <select class="" name="age">
+            <option value="">選択してください</option>
+            <option value="10代">10代</option>
+            <option value="20代">20代</option>
+            <option value="30代">30代</option>
+            <option value="40代">40代</option>         
+            <option value="50代">50代</option> 
+            <option value="60代">60代</option> 
+          </select>
+        </div>
+
+        <div class="">
+          <label for="naiyou" class="contact_label m-b05">カテゴリー<span class="hissu">*</span></label>          
+          <select class="" name="category">
+            <option value="">選択してください</option>
+            <option value="アウター">アウター</option>
+            <option value="トップス">トップス</option>
+            <option value="ボトムス">ボトムス</option>
+          </select>
+        </div>
+
+        <div class="">
+          <label for="naiyou" class="contact_label m-b05">サイズ<span class="hissu">*</span></label>          
+          <select class="" name="size">
+            <option value="">選択してください</option>
+            <option value="Sサイズ">Sサイズ</option>
+            <option value="Mサイズ">Mサイズ</option>
+            <option value="Lサイズ">Lサイズ</option>
+          </select>
+        </div>
+
+        <div class="">
+          <label for="naiyou" class="contact_label m-b05">お住まい<span class="hissu">*</span></label>          
+          <select class="" name="place">
+      <option value="北海道">北海道</option>
+              <option value="青森県">青森県</option>
+              <option value="岩手県">岩手県</option>
+              <option value="宮城県">宮城県</option>
+              <option value="秋田県">秋田県</option>
+              <option value="山形県">山形県</option>
+              <option value="福島県">福島県</option>
+              <option value="茨城県">茨城県</option>
+              <option value="栃木県">栃木県</option>
+              <option value="群馬県">群馬県</option>
+              <option value="埼玉県">埼玉県</option>
+              <option value="千葉県">千葉県</option>
+              <option value="東京都">東京都</option>
+              <option value="神奈川県">神奈川県</option>
+              <option value="新潟県">新潟県</option>
+              <option value="富山県">富山県</option>
+              <option value="石川県">石川県</option>
+              <option value="福井県">福井県</option>
+              <option value="山梨県">山梨県</option>
+              <option value="長野県">長野県</option>
+              <option value="岐阜県">岐阜県</option>
+              <option value="静岡県">静岡県</option>
+              <option value="愛知県">愛知県</option>
+              <option value="三重県">三重県</option>
+              <option value="滋賀県">滋賀県</option>
+              <option value="京都府">京都府</option>
+              <option value="大阪府">大阪府</option>
+              <option value="兵庫県">兵庫県</option>
+              <option value="奈良県">奈良県</option>
+              <option value="和歌山県">和歌山県</option>
+              <option value="鳥取県">鳥取県</option>
+              <option value="島根県">島根県</option>
+              <option value="岡山県">岡山県</option>
+              <option value="広島県">広島県</option>
+              <option value="山口県">山口県</option>
+              <option value="徳島県">徳島県</option>
+              <option value="香川県">香川県</option>
+              <option value="愛媛県">愛媛県</option>
+              <option value="高知県">高知県</option>
+              <option value="福岡県">福岡県</option>
+              <option value="佐賀県">佐賀県</option>
+              <option value="長崎県">長崎県</option>
+              <option value="熊本県">熊本県</option>
+              <option value="大分県">大分県</option>
+              <option value="宮崎県">宮崎県</option>
+              <option value="鹿児島県">鹿児島県</option>
+              <option value="沖縄県">沖縄県</option>
+          </select>
+        </div>
+
+
+      <label for="naiyou" class="contact_label m-b05">画像アップロード(５枚まで)<span class="hissu">*</span></label>          
+      <div class="upload">
+        <span class="icn_img">（縦横400px以上推奨、5MB未満）</span>
+
+        <div class="center m-t3 m-b3">
+          <label class="upload-btn">
+            <input id="dammy_icon" style="display:none" accept="image/*" name="dammy_icon" type="file">
+            ファイルを選択
+          </label>
+        </div>
+
+        <span id="result" class="result"></span>
+        <input id="icon" name="icon" type="hidden">
+      </div>
+
+        <div class="cv_btn m-t3">
+          <input type="submit" value="登録する" class="btn bg_yellow">
+        </div>
+
+     <!--  変更時に表示するボタン -->        
+     <!--  
+      <div class="cv_btn m-t3">
+        <input type="submit" value="変更する" class="btn bg_yellow">
+      </div>  
+      -->
+    <!--  変更時に表示するボタン -->   
+    </div>
+
+</form>
+
+<footer>
+    <p class="m-t2"><a href="/kiyaku">利用規約</a>　｜　<a href="/privacy">プライバシーポリシー</a>　｜　<a href="/thanks">SPECIAL THANKS</a></p>
+    <p class="m-t4 txt_copyright">©入江開発室</p>
+</footer>
+</body>
+</html>
